@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.13
 
 ENV LISTENING_PORT=5565
 
