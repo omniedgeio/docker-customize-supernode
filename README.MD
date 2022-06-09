@@ -4,22 +4,21 @@ OmniEdge offers customize supernode, You can setup your own Supernode server to 
 
 ![](Setup-Customize-Supernode-1080p.gif)
 
-## Clone the repo
+
+# Installation
+
+## By run a command 
+
+```bash
+curl https://raw.githubusercontent.com/omniedgeio/docker-customize-supernode/main/install.sh | bash
+```
+
+## Step by step manually 
 
 ``` bash
 git clone https://github.com/omniedgeio/docker-customize-supernode.git
 cd docker-customize-supernode
-```
-
-## Build Supernode
-
-```
 docker build -t docker-customize-supernode .
-```
-
-## Run Supernode
-
-```
 docker run -d -p 5565:5565/udp docker-customize-supernode
 ```
 
@@ -29,6 +28,3 @@ Login in your OmniEdge account, and setting in the dashboard.
 
 ![](Customizesupernode.png)
 
-
-
-------
