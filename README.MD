@@ -19,7 +19,7 @@ curl https://raw.githubusercontent.com/omniedgeio/docker-customize-supernode/mai
 git clone https://github.com/omniedgeio/docker-customize-supernode.git
 cd docker-customize-supernode
 docker build -t docker-customize-supernode .
-docker run -d -p 5565:5565/udp docker-customize-supernode
+docker run -d -p 443:443/udp docker-customize-supernode
 ```
 
 ## Setting in the Omniedge Dashboard
