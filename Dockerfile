@@ -17,7 +17,7 @@ RUN BUILD_DEPENDENCIES=" \
     && cd /tmp \
     && git clone https://github.com/omniedgeio/n2n.git n2n \
     && cd n2n \
-    && git checkout 2.6-fix \
+    && git checkout 2.6-stable-omni \
     && ./autogen.sh \
     && ./configure \
     && make \
