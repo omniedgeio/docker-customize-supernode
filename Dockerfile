@@ -1,9 +1,14 @@
 FROM alpine:3.13
 
 ENV LISTENING_PORT=443
+ARG VERSION=none
+
+# 2.6-stable-omni
+# 3.0-stable
 
 EXPOSE ${LISTENING_PORT}
 
+RUN echo "super node version is: ${VERSION}"
 RUN BUILD_DEPENDENCIES=" \
         build-base \
         git \
@@ -17,7 +22,7 @@ RUN BUILD_DEPENDENCIES=" \
     && cd /tmp \
     && git clone https://github.com/omniedgeio/n2n.git n2n \
     && cd n2n \
-    && git checkout 2.6-stable-omni \
+    && git checkout ${VERSION} \
     && ./autogen.sh \
     && ./configure \
     && make \
@@ -27,3 +32,4 @@ RUN BUILD_DEPENDENCIES=" \
     && rm -rf /tmp/*
 
 CMD /usr/bin/supernode -l ${LISTENING_PORT}
+
