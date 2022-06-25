@@ -3,6 +3,8 @@
 set -e
 
 sudo apt-get update && sudo apt-get install docker.io -y
+git clone https://github.com/omniedgeio/docker-customize-supernode.git
+cd docker-customize-supernode
 PS3='Please enter your choice: '
 options=("2.6-stable-omni" "3.0-stable" "Quit")
 select VERSION in "${options[@]}"
