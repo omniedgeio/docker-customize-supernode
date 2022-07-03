@@ -23,7 +23,7 @@ Please enter your choice: 1
 
 ## Setting in the Omniedge Dashboard
 
-Login in your OmniEdge account, and setting in the dashboard.
+Login in your OmniEdge account, and setting in the dashboard with your own **Server IP** and **port**, the defualt port of this Dockerfile is **443**.
 
 ![](Customizesupernode.png)
 
