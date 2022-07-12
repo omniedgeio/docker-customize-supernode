@@ -1,5 +1,7 @@
 # Customize supernode server
 
+[【English】](https://github.com/omniedgeio/omniedge#setup-customize-supernode) [【简体中文文档】](https://github.com/omniedgeio/omniedge/blob/main/README/README-zh-Hans.md#自建超级节点) [【正體中文】](https://github.com/omniedgeio/omniedge/blob/main/README/README-zh-Hant.md#自建超級節點)
+
 OmniEdge offers customize supernode, You can setup your own Supernode server to increase security and speed for your Virtual Network, here you can setup a supernode server with docker.
 
 # Installation
