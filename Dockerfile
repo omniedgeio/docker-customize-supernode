@@ -1,7 +1,8 @@
 FROM alpine:3.13
 
 ENV LISTENING_PORT=443
-ARG VERSION=none
+ARG TARGETARCH
+ARG VERSION=2.6-stable-omni
 
 # 2.6-stable-omni
 # 3.0-stable
