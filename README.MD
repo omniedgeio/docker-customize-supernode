@@ -4,7 +4,13 @@
 
 OmniEdge offers customize supernode, You can setup your own Supernode server to increase security and speed for your Virtual Network, here you can setup a supernode server with docker.
 
-# Installation
+# Usage
+
+```bash
+sudo docker run -d -p 443:443/udp omniedge/supernode:latest
+```
+
+# Compile 
 
 ## By run a command 
 
