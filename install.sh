@@ -28,5 +28,5 @@ do
 done
 echo $VERSION
 sudo docker build  --build-arg VERSION=$VERSION -t docker-customize-supernode-$VERSION .
-sudo docker run -d -p 443:443/udp docker-customize-supernode-$VERSION
-sudo ufw allow 443
+sudo docker run -d -p 7787:7787/udp docker-customize-supernode-$VERSION
+sudo ufw allow 7787

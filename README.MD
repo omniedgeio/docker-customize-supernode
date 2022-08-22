@@ -7,7 +7,7 @@ OmniEdge offers customize supernode, You can setup your own Supernode server to 
 # Usage
 
 ```bash
-sudo docker run -d -p 443:443/udp omniedge/supernode:latest
+sudo docker run -d -p 7787:7787/udp omniedge/supernode:latest
 ```
 
 # Compile 
@@ -23,13 +23,13 @@ curl https://raw.githubusercontent.com/omniedgeio/docker-customize-supernode/mai
 Please enter your choice: 1
 
 #Select 1 with 2.6-stable-omni for current version
-#Default port is 443
+#Default port is 7787
 
 ```
 
 ## Setting in the Omniedge Dashboard
 
-Login in your OmniEdge account, and setting in the dashboard with your own **Server IP** and **port**, the defualt port of this Dockerfile is **443**.
+Login in your OmniEdge account, and setting in the dashboard with your own **Server IP** and **port**, the defualt port of this Dockerfile is **7787**.
 
 ![](Customizesupernode.png)
 
